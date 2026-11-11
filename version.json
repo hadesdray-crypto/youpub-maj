@@ -1,0 +1,12 @@
+{
+  "code": 80,
+  "nom": "1.0.80",
+  "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
+  "changements": [
+    "Bouton « Réglages » sur la vidéo du haut : suivante, précédente, qualité, lire la suite ou seulement celle-ci, style de musique, vitesse, volume, luminosité, téléchargement, plein écran.",
+    "Suite automatique : à la fin d'une vidéo ou d'une musique, la suivante démarre toute seule.",
+    "Première tuile « Catégories » dans chaque rubrique (musique en 16 styles, films en français d'abord, sport, science, jeux vidéo, podcasts, en direct).",
+    "Rubrique Musique plus fournie.",
+    "Les mises à jour se font maintenant depuis un dépôt public, sans clé d'accès."
+  ]
+}
