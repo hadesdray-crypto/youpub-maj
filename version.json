@@ -1,13 +1,11 @@
 {
-  "code": 83,
-  "nom": "1.0.83",
+  "code": 84,
+  "nom": "1.0.84",
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
   "changements": [
-    "Musique et vidéos : boutons « suivante » et « précédente » toujours disponibles, et enchaînement automatique fiabilisé",
-    "Sport : en ouvrant une discipline (basket…), les heures de diffusion et les chaînes qui la passent",
-    "En direct : chaînes du monde entier classées par type (info, cuisine, sport, enfants, films, musique…) et chaînes régionales",
-    "Recherche de chaînes par thème : tape « chaîne de cuisine » et l'application les propose",
-    "Films : nouvelles catégories (fantastique, guerre, super-héros, arts martiaux, catastrophe, histoires vraies, musicaux, Noël)",
-    "Tuile « Toutes les catégories » plus claire"
+    "Chaînes en direct : les chaînes en français et francophones (France, Belgique, Suisse, Canada, Afrique…) passent en premier",
+    "Nouvelle catégorie « Francophones du monde » dans En direct",
+    "Flux de chaînes : l'application envoie maintenant les en-têtes que certaines chaînes exigent (France 24, Gulli…) et teste plus de chaînes avant de les montrer",
+    "Rappel de la version précédente : musique suivante, horaires du sport, chaînes par type, recherche par thème, nouveaux genres de films"
   ]
 }
