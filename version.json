@@ -1,11 +1,12 @@
 {
-  "code": 84,
-  "nom": "1.0.84",
+  "code": 85,
+  "nom": "1.0.85",
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
   "changements": [
-    "Chaînes en direct : les chaînes en français et francophones (France, Belgique, Suisse, Canada, Afrique…) passent en premier",
-    "Nouvelle catégorie « Francophones du monde » dans En direct",
-    "Flux de chaînes : l'application envoie maintenant les en-têtes que certaines chaînes exigent (France 24, Gulli…) et teste plus de chaînes avant de les montrer",
-    "Rappel de la version précédente : musique suivante, horaires du sport, chaînes par type, recherche par thème, nouveaux genres de films"
+    "Multi-écran : un appui sur une chaîne affiche une barre d'options pendant 3 secondes : favori, couper le son, son − et +, chaîne d'avant et d'après, reculer et avancer de 10 s, grande case, plus",
+    "Favoris : les chaînes en favori passent en tête dans « ＋ Chaîne »",
+    "En direct : ⏮ et ⏭ changent de chaîne (ils ne ramènent plus au début) ; ⏪ et ⏩ reculent ou avancent de 10 s quand la chaîne le permet",
+    "Plus de chaînes : 2e source de flux gratuits (Free-TV, dont CStar) et adresses de secours",
+    "Chaînes : un flux lent a une 2e chance ; s'il ne marche pas, la raison est affichée ; un flux lent est marqué « instable »"
   ]
 }
