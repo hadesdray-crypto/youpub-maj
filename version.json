@@ -1,8 +1,9 @@
 {
-    "code":  88,
-    "nom":  "1.0.88",
+    "code":  89,
+    "nom":  "1.0.89",
     "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
     "changements":  [
-                        "Chaînes pour enfants : une quarantaine de chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus : Bob l\u0027éponge, Schtroumpfs, Pingu, Caillou, Pocoyo, Barbie, Kids Club, Toons, anime...). Elles passent en tête de Jeunesse, Dessins animés et du bouton Enfants du multi-écran; celles qui marchent sont testées automatiquement"
+                        "Chaînes pour enfants : les chaînes françaises passent en premier (celles qui marchent d\u0027abord), les chaînes étrangères et celles dont le son n\u0027est pas confirmé en français viennent après",
+                        "Chaînes pour enfants : une quarantaine de chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus)"
                     ]
 }
