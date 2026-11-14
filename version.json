@@ -1,12 +1,14 @@
 {
-    "code": 92,
-    "nom": "1.0.92",
+    "code": 93,
+    "nom": "1.0.93",
     "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
     "changements": [
-        "France et Sport : toutes les chaînes gratuites françaises de Pluto TV et Samsung TV Plus (331 chaînes, toutes vérifiées) sont ajoutées, en plus des rubriques",
-        "Les chaînes qui marchent s’affichent tout de suite : la liste n’attend plus la fin du test, elle se met à jour pendant qu’il tourne",
-        "YouPub retient ce qui marchait la dernière fois (6 heures) et le montre en premier ; une chaîne en panne est retestée après 45 minutes",
-        "Test des flux plus rapide (12 à la fois) et sur plus de chaînes",
-        "Multi-écran : chaque case utilise les réglages demandés par sa chaîne (certaines chaînes refusaient de démarrer) ; choix de 5, 8 ou 9 cases dans Réglages"
+        "Multi-écran : 5 dispositions (petites à droite, en bas, grille, côte à côte, incrustées) et contours qu'on peut enlever, dans « Disposition »",
+        "Double appui : une petite devient la grande ; la grande passe en plein écran. Pour revenir : glisser le doigt sur le côté",
+        "Bouton « Diffuser » : télé ou rétroprojecteur sans fil, par câble, autre appli, envoi de l'adresse",
+        "Bouton rouge « Enregistrer » en haut : enregistre la chaîne écoutée",
+        "Boutons des chaînes redessinés, avec leur nom dessous ; jauge du son fluide, dont la couleur suit le niveau",
+        "Chaînes : « En français (monde) » dans ＋ Chaîne et dans Télés du monde, et plus de pays francophones",
+        "Mise à jour : elle reprend toute seule après l'autorisation d'Android"
     ]
 }
