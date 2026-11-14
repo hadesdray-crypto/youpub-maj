@@ -1,9 +1,12 @@
 {
-    "code":  89,
-    "nom":  "1.0.89",
+    "code":  90,
+    "nom":  "1.0.90",
     "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
     "changements":  [
-                        "Chaînes pour enfants : les chaînes françaises passent en premier (celles qui marchent d\u0027abord), les chaînes étrangères et celles dont le son n\u0027est pas confirmé en français viennent après",
-                        "Chaînes pour enfants : une quarantaine de chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus)"
+                        "Films, séries, documentaires, divertissement, comédie, musique, infos et voyage : plus de 240 chaînes gratuites en français (Pluto TV et Samsung TV Plus), françaises en premier",
+                        "Ordre des chaînes : France, puis Québec, puis les autres pays francophones, puis le reste (les chaînes pas en français sont marquées International)",
+                        "Animés : chaînes d\u0027Amérique (Crunchyroll, RetroCrush, Naruto, Sailor Moon...) à la fin de Dessins animés",
+                        "Films : 10 nouvelles catégories (cinéma français, québécois, téléfilms, comédies, polars, belge/suisse, Afrique, animés, théâtre)",
+                        "Films : bouton « Créer ma catégorie » (un nom + des mots à chercher), appui long pour la supprimer"
                     ]
 }
