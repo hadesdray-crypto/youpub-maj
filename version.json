@@ -1,12 +1,10 @@
 {
-    "code":  90,
-    "nom":  "1.0.90",
+    "code":  91,
+    "nom":  "1.0.91",
     "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
     "changements":  [
-                        "Films, séries, documentaires, divertissement, comédie, musique, infos et voyage : plus de 240 chaînes gratuites en français (Pluto TV et Samsung TV Plus), françaises en premier",
-                        "Ordre des chaînes : France, puis Québec, puis les autres pays francophones, puis le reste (les chaînes pas en français sont marquées International)",
-                        "Animés : chaînes d\u0027Amérique (Crunchyroll, RetroCrush, Naruto, Sailor Moon...) à la fin de Dessins animés",
-                        "Films : 10 nouvelles catégories (cinéma français, québécois, téléfilms, comédies, polars, belge/suisse, Afrique, animés, théâtre)",
-                        "Films : bouton « Créer ma catégorie » (un nom + des mots à chercher), appui long pour la supprimer"
+                        "Correction : les chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus) se lisent maintenant dans tous les écrans de direct, dont les chaînes de la liste « Enfants » qui ne démarraient pas",
+                        "Multi-écran : bouton ● REC dans la barre de chaque case pour enregistrer la chaîne (fichier dans Téléchargements/YouPub), un seul enregistrement à la fois",
+                        "Enregistrement des directs : fonctionne aussi avec les chaînes Pluto TV et Samsung TV Plus"
                     ]
 }
