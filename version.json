@@ -1,14 +1,11 @@
 {
-  "code": 86,
-  "nom": "1.0.86",
+  "code": 87,
+  "nom": "1.0.87",
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
   "changements": [
-    "Multi-écran : jauge du son sur le côté de la chaîne (on la touche ou on glisse le doigt pour régler)",
-    "Multi-écran : bouton de format de l'image — Plein cadre (remplit la case, sans bandes noires), Format d'origine, Étirée",
-    "Multi-écran : un appui sur une chaîne affiche une barre d'options pendant 3 secondes : favori, couper le son, son − et +, chaîne d'avant et d'après, reculer et avancer de 10 s, grande case, plus",
-    "Favoris : les chaînes en favori passent en tête dans « ＋ Chaîne »",
-    "En direct : ⏮ et ⏭ changent de chaîne (ils ne ramènent plus au début) ; ⏪ et ⏩ reculent ou avancent de 10 s quand la chaîne le permet",
-    "Plus de chaînes : 2e source de flux gratuits (Free-TV, dont CStar) et adresses de secours",
-    "Chaînes : un flux lent a une 2e chance ; s'il ne marche pas, la raison est affichée ; un flux lent est marqué « instable »"
+    "« ＋ Chaîne » : catégories du monde entier (Enfants, Sport, Info, Musique, Films, Séries, Documentaires…, Canada, Belgique, Suisse) ; celles qui marchent en tête",
+    "Plus de chaînes par pays, dont le Canada francophone (ICI RDI, Télé-Québec, Savoir média, TVA, Noovo, CPAC…)",
+    "Réglages : « Rechercher une mise à jour » tout en haut",
+    "Multi-écran : jauge du son sur le côté, format de l'image (Plein cadre, Format d'origine, Étirée)"
   ]
 }
