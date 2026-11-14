@@ -1,11 +1,8 @@
 {
-  "code": 87,
-  "nom": "1.0.87",
-  "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
-  "changements": [
-    "« ＋ Chaîne » : catégories du monde entier (Enfants, Sport, Info, Musique, Films, Séries, Documentaires…, Canada, Belgique, Suisse) ; celles qui marchent en tête",
-    "Plus de chaînes par pays, dont le Canada francophone (ICI RDI, Télé-Québec, Savoir média, TVA, Noovo, CPAC…)",
-    "Réglages : « Rechercher une mise à jour » tout en haut",
-    "Multi-écran : jauge du son sur le côté, format de l'image (Plein cadre, Format d'origine, Étirée)"
-  ]
+    "code":  88,
+    "nom":  "1.0.88",
+    "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
+    "changements":  [
+                        "Chaînes pour enfants : une quarantaine de chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus : Bob l\u0027éponge, Schtroumpfs, Pingu, Caillou, Pocoyo, Barbie, Kids Club, Toons, anime...). Elles passent en tête de Jeunesse, Dessins animés et du bouton Enfants du multi-écran; celles qui marchent sont testées automatiquement"
+                    ]
 }
