@@ -1,10 +1,12 @@
 {
-    "code":  91,
-    "nom":  "1.0.91",
-    "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
-    "changements":  [
-                        "Correction : les chaînes gratuites ajoutées (Pluto TV et Samsung TV Plus) se lisent maintenant dans tous les écrans de direct, dont les chaînes de la liste « Enfants » qui ne démarraient pas",
-                        "Multi-écran : bouton ● REC dans la barre de chaque case pour enregistrer la chaîne (fichier dans Téléchargements/YouPub), un seul enregistrement à la fois",
-                        "Enregistrement des directs : fonctionne aussi avec les chaînes Pluto TV et Samsung TV Plus"
-                    ]
+    "code": 92,
+    "nom": "1.0.92",
+    "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk",
+    "changements": [
+        "France et Sport : toutes les chaînes gratuites françaises de Pluto TV et Samsung TV Plus (331 chaînes, toutes vérifiées) sont ajoutées, en plus des rubriques",
+        "Les chaînes qui marchent s’affichent tout de suite : la liste n’attend plus la fin du test, elle se met à jour pendant qu’il tourne",
+        "YouPub retient ce qui marchait la dernière fois (6 heures) et le montre en premier ; une chaîne en panne est retestée après 45 minutes",
+        "Test des flux plus rapide (12 à la fois) et sur plus de chaînes",
+        "Multi-écran : chaque case utilise les réglages demandés par sa chaîne (certaines chaînes refusaient de démarrer) ; choix de 5, 8 ou 9 cases dans Réglages"
+    ]
 }
