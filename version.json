@@ -1,11 +1,11 @@
 {
-    "code": 95,
-    "nom": "1.0.95",
+    "code": 96,
+    "nom": "1.0.96",
     "changements": [
-        "Mode voiture facile à atteindre : une grosse tuile « Mode voiture » en première position de la bande de tuiles (appui long pour la déplacer où tu veux)",
-        "Mode voiture aussi dans le menu Accès des consoles, et disponible comme fonction pour n'importe quel bouton de console (mode Modification)",
-        "Sur l'écran voiture : un interrupteur pour activer ou couper l'option (Bluetooth, grosse réserve de lecture)",
-        "Sans l'option activée, YouPub fonctionne exactement comme avant"
+        "Mode voiture : tout se fait depuis l'écran voiture. Très gros boutons : précédent, pause, suivant, recul et avance 15 s, volume, favori.",
+        "Chercher un titre ou un artiste à la voix ou en écrivant, et styles de musique en un toucher (hits, rap, rock, années 80, 90, 2000, chill…).",
+        "Accès direct à tes favoris, ton historique et tes titres à voir plus tard.",
+        "Sans l'option voiture, YouPub reste exactement comme avant."
     ],
     "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
