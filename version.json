@@ -1,11 +1,11 @@
 {
-    "code":  93,
-    "nom":  "1.0.93",
-    "changements":  [
-                        "Ecran toujours allume tant qu\u0027une video tourne (chargement compris), sur le lecteur, la fenetre flottante et le multi-ecran : l\u0027appareil ne se met plus en veille",
-                        "Le processeur et le Wi-Fi restent eveilles pendant la lecture, pour qu\u0027elle ne s\u0027arrete pas",
-                        "Batterie faible (20 %, 10 %, 5 %) : un message le dit, mais la video n\u0027est jamais arretee par l\u0027appli",
-                        "Pour la musique seule, l\u0027ecran peut toujours s\u0027eteindre (economie de batterie)"
-                    ],
-    "apk":  "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
+    "code": 94,
+    "nom": "1.0.94",
+    "changements": [
+        "Nouvelle option « Mode voiture » (Réglages, désactivée par défaut) : la musique part directement en Bluetooth vers l'autoradio, coupe les autres lectures et prend la main ; la voiture affiche le titre et peut passer à la musique suivante ou précédente",
+        "Mode voiture : grosse réserve de lecture (jusqu'à 5 minutes d'avance) pour passer les zones sans réseau, appliquée à la prochaine lecture",
+        "Mode voiture : écran voiture avec très gros boutons Précédent, Pause et Suivant (Réglages, « Ouvrir l'écran voiture »)",
+        "Sans l'option, YouPub fonctionne exactement comme avant"
+    ],
+    "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
