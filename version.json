@@ -1,7 +1,8 @@
 {
-    "code": 108,
-    "nom": "1.0.108",
+    "code": 109,
+    "nom": "1.0.109",
     "changements": [
+        "Qualité du son : automatique (toujours la meilleure) par défaut, ou « Moyenne » / « Économie de données ». Réglable dans Écran voiture > Réglages et avec le nouveau bouton « Son » du lecteur vidéo, qui liste aussi toutes les pistes son de la vidéo.",
         "Son : bouton « Son : auto » en haut de l'écran voiture → menu « Où envoyer le son ? » : automatique (Bluetooth dès qu'il est connecté), ton enceinte, la voiture, un casque ou le haut-parleur, et « Connecter un autre appareil Bluetooth… ».",
         "Toujours le meilleur son : l'appli prend le son au débit le plus haut disponible.",
         "Karaoké : une petite boule saute de mot en mot au-dessus des paroles (réglable dans les réglages du karaoké).",
