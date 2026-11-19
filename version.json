@@ -1,11 +1,17 @@
 {
-    "code": 96,
-    "nom": "1.0.96",
+    "code": 97,
+    "nom": "1.0.97",
     "changements": [
-        "Mode voiture : tout se fait depuis l'écran voiture. Très gros boutons : précédent, pause, suivant, recul et avance 15 s, volume, favori.",
-        "Chercher un titre ou un artiste à la voix ou en écrivant, et styles de musique en un toucher (hits, rap, rock, années 80, 90, 2000, chill…).",
-        "Accès direct à tes favoris, ton historique et tes titres à voir plus tard.",
-        "Sans l'option voiture, YouPub reste exactement comme avant."
+        "Écran voiture refait : le clip passe en grand (la pochette seulement pour un son sans clip), avec une ligne qui suit les vibrations du son et le fond de l'écran aux couleurs du morceau.",
+        "Double toucher sur le clip : plein écran, pour que les enfants regardent un clip ou un film.",
+        "Gros boutons bijoux rouge et noir, tous pareils. Bouton « Son seul » et « Réglages » dans la barre du haut.",
+        "Karaoké : gros bouton micro. Les paroles s'affichent en très grand sur le clip, ou sur fond noir, debout comme couché. Boutons pour recaler les paroles.",
+        "Étoiles des favoris : 1 étoile = favori, 2 étoiles = le son est enregistré dans l'appareil, 3 étoiles = la vidéo est enregistrée. Choix de la qualité, la meilleure en premier. Ce qui est enregistré marche sans réseau (tunnel, zone blanche). Aussi dans le lecteur vidéo.",
+        "Favoris, historique, plus tard et styles s'ouvrent en grand avec un gros bouton Retour.",
+        "Recherche de tout depuis l'écran voiture : musique, films, dessins animés, avec des filtres.",
+        "Plus rapide : la chanson touchée démarre tout de suite, la suivante est préparée à l'avance, un cercle tourne pendant le chargement.",
+        "« Relaxation » : vraie musique de relaxation. Nouveau style « Enfants ».",
+        "Lecture en cascade : si une voie ne marche pas, l'appli essaie automatiquement la suivante."
     ],
     "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
