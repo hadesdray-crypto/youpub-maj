@@ -1,7 +1,9 @@
 {
-    "code": 105,
-    "nom": "1.0.105",
+    "code": 106,
+    "nom": "1.0.106",
     "changements": [
+        "Karaoké : les paroles viennent maintenant du bon artiste et du bon titre (plus de reprises ni de lignes d'une autre chanson).",
+        "Karaoké : la vérification des paroles sur la voix démarre après 15 secondes et son état s'affiche en bas à gauche (« … s écoutées », puis « Paroles vérifiées sur la voix »).",
         "Volume égal entre les vidéos : le niveau se cale dès la première seconde de chaque nouvelle vidéo, film ou chaîne, puis reste stable. Aussi dans le multi-écran des chaînes.",
         "Son vers la voiture : plus rien n'est forcé, Android envoie le son au Bluetooth de la voiture comme avant. « Son : téléphone » ne vaut que dans l'écran voiture ; en sortant, tout revient en automatique.",
         "Karaoké : les paroles sont vérifiées sur la voix réelle de la chanson (décalage corrigé tout seul, meilleure version choisie, message clair si rien ne colle). La version karaoké toute faite est coupée par défaut.",
