@@ -1,7 +1,9 @@
 {
-    "code": 100,
-    "nom": "1.0.100",
+    "code": 101,
+    "nom": "1.0.101",
     "changements": [
+        "Mises à jour : YouPub installe elle-même ses mises à jour. Celle-ci est la dernière à demander la validation d'Android ; les suivantes s'installent d'un seul toucher sur « Mettre à jour » (Android 12 et plus), puis une notification indique que YouPub est à jour.",
+        "La nouvelle version est vue tout de suite après sa publication (avant, GitHub pouvait montrer une ancienne fiche quelques minutes).",
         "Écran voiture : nouveau bouton « Son : voiture / téléphone » en haut. Dès que la voiture est connectée en Bluetooth, le son y part tout seul ; si la voiture n'accepte que les appels en Bluetooth, le son passe quand même par la voie « appels ».",
         "Karaoké, mode Coloriage : la couleur avance mot à mot avec la voix (temps exacts quand la source les donne, sinon calée sur le début exact de chaque ligne et répartie selon les syllabes), mise à jour 60 fois par seconde.",
         "Karaoké : si le clip a une intro plus longue que la chanson, l'appli le signale et le bouton « Caler sur la chanson » lance la version qui a exactement la durée des paroles.",
