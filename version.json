@@ -1,7 +1,8 @@
 {
-    "code": 98,
-    "nom": "1.0.98",
+    "code": 99,
+    "nom": "1.0.99",
     "changements": [
+        "Karaoké : nouveau bouton « Réglages » en haut à droite. Mode d'affichage (Classique, Une ligne, Défilant, Coloriage), animation (Montée douce, Fondu, Zoom, Aucune), taille du texte, couleur, fond (clip visible, assombri ou noir) et position des paroles (centre ou bas). Les choix sont gardés.",
         "Écran voiture : la musique démarre maintenant même quand l'écran voiture est ouvert en premier (avant, le cercle tournait sans fin).",
         "Rien n'est plus coupé sous la barre d'état en haut de l'écran (barre du haut, pages, karaoké, plein écran).",
         "Écran voiture refait : le clip passe en grand (la pochette seulement pour un son sans clip), avec une ligne qui suit les vibrations du son et le fond de l'écran aux couleurs du morceau.",
