@@ -1,7 +1,9 @@
 {
-    "code": 110,
-    "nom": "1.0.110",
+    "code": 111,
+    "nom": "1.0.111",
     "changements": [
+        "Nouvelle disposition « Simple » (Réglages > Disposition de l'appli) : accueil à grosses tuiles avec boutons bijoux, grande recherche à la voix ou au clavier, et « Ma bibliothèque » (favoris, sans réseau, historique, plus tard).",
+        "Réglages : la qualité du son et le niveau égal sont aussi dans le menu Réglages principal.",
         "Karaoké : bouton « Version : originale / karaoké » : la chanson passe à la version sans voix (ou revient) au même moment, et les paroles se recalent toutes seules en comparant la musique des deux versions.",
         "Karaoké : bouton « Paroles : affichées / masquées ». Si la version karaoké a déjà ses paroles à l'image, celles de l'appli se masquent toutes seules.",
         "Karaoké depuis n'importe quelle vidéo : nouveau bouton « Karaoké » dans le lecteur vidéo, la chanson continue et les paroles s'affichent en grand.",
