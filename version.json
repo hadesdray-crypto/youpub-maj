@@ -1,7 +1,11 @@
 {
-    "code": 109,
-    "nom": "1.0.109",
+    "code": 110,
+    "nom": "1.0.110",
     "changements": [
+        "Karaoké : bouton « Version : originale / karaoké » : la chanson passe à la version sans voix (ou revient) au même moment, et les paroles se recalent toutes seules en comparant la musique des deux versions.",
+        "Karaoké : bouton « Paroles : affichées / masquées ». Si la version karaoké a déjà ses paroles à l'image, celles de l'appli se masquent toutes seules.",
+        "Karaoké depuis n'importe quelle vidéo : nouveau bouton « Karaoké » dans le lecteur vidéo, la chanson continue et les paroles s'affichent en grand.",
+        "Réglages : nouvelle ligne « Disposition de l'appli » : Actuelle (par défaut) ou Voiture (l'appli s'ouvre directement sur les gros boutons). La disposition « Simple » arrive ensuite.",
         "Qualité du son : automatique (toujours la meilleure) par défaut, ou « Moyenne » / « Économie de données ». Réglable dans Écran voiture > Réglages et avec le nouveau bouton « Son » du lecteur vidéo, qui liste aussi toutes les pistes son de la vidéo.",
         "Son : bouton « Son : auto » en haut de l'écran voiture → menu « Où envoyer le son ? » : automatique (Bluetooth dès qu'il est connecté), ton enceinte, la voiture, un casque ou le haut-parleur, et « Connecter un autre appareil Bluetooth… ».",
         "Toujours le meilleur son : l'appli prend le son au débit le plus haut disponible.",
