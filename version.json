@@ -1,7 +1,11 @@
 {
-    "code": 99,
-    "nom": "1.0.99",
+    "code": 100,
+    "nom": "1.0.100",
     "changements": [
+        "Écran voiture : nouveau bouton « Son : voiture / téléphone » en haut. Dès que la voiture est connectée en Bluetooth, le son y part tout seul ; si la voiture n'accepte que les appels en Bluetooth, le son passe quand même par la voie « appels ».",
+        "Karaoké, mode Coloriage : la couleur avance mot à mot avec la voix (temps exacts quand la source les donne, sinon calée sur le début exact de chaque ligne et répartie selon les syllabes), mise à jour 60 fois par seconde.",
+        "Karaoké : si le clip a une intro plus longue que la chanson, l'appli le signale et le bouton « Caler sur la chanson » lance la version qui a exactement la durée des paroles.",
+        "Karaoké : « Paroles plus tôt / Plus tard » recale par quart de seconde (le sens était inversé, c'est corrigé) et le réglage est gardé pour chaque chanson.",
         "Karaoké : nouveau bouton « Réglages » en haut à droite. Mode d'affichage (Classique, Une ligne, Défilant, Coloriage), animation (Montée douce, Fondu, Zoom, Aucune), taille du texte, couleur, fond (clip visible, assombri ou noir) et position des paroles (centre ou bas). Les choix sont gardés.",
         "Écran voiture : la musique démarre maintenant même quand l'écran voiture est ouvert en premier (avant, le cercle tournait sans fin).",
         "Rien n'est plus coupé sous la barre d'état en haut de l'écran (barre du haut, pages, karaoké, plein écran).",
