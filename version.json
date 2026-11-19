@@ -1,7 +1,11 @@
 {
-    "code": 106,
-    "nom": "1.0.106",
+    "code": 108,
+    "nom": "1.0.108",
     "changements": [
+        "Son : bouton « Son : auto » en haut de l'écran voiture → menu « Où envoyer le son ? » : automatique (Bluetooth dès qu'il est connecté), ton enceinte, la voiture, un casque ou le haut-parleur, et « Connecter un autre appareil Bluetooth… ».",
+        "Toujours le meilleur son : l'appli prend le son au débit le plus haut disponible.",
+        "Karaoké : une petite boule saute de mot en mot au-dessus des paroles (réglable dans les réglages du karaoké).",
+        "Karaoké : les mots avancent avec la voix (chaque syllabe chantée fait avancer, une note tenue garde la boule sur le mot).",
         "Karaoké : les paroles viennent maintenant du bon artiste et du bon titre (plus de reprises ni de lignes d'une autre chanson).",
         "Karaoké : la vérification des paroles sur la voix démarre après 15 secondes et son état s'affiche en bas à gauche (« … s écoutées », puis « Paroles vérifiées sur la voix »).",
         "Volume égal entre les vidéos : le niveau se cale dès la première seconde de chaque nouvelle vidéo, film ou chaîne, puis reste stable. Aussi dans le multi-écran des chaînes.",
