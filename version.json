@@ -1,7 +1,12 @@
 {
-    "code": 102,
-    "nom": "1.0.102",
+    "code": 105,
+    "nom": "1.0.105",
     "changements": [
+        "Volume égal entre les vidéos : le niveau se cale dès la première seconde de chaque nouvelle vidéo, film ou chaîne, puis reste stable. Aussi dans le multi-écran des chaînes.",
+        "Son vers la voiture : plus rien n'est forcé, Android envoie le son au Bluetooth de la voiture comme avant. « Son : téléphone » ne vaut que dans l'écran voiture ; en sortant, tout revient en automatique.",
+        "Karaoké : les paroles sont vérifiées sur la voix réelle de la chanson (décalage corrigé tout seul, meilleure version choisie, message clair si rien ne colle). La version karaoké toute faite est coupée par défaut.",
+        "Écran voiture : « ‹ YouPub » ou la flèche retour arrête la musique. Le curseur « Voix du chanteur » est aussi dans Réglages.",
+        "Vibrations du son en bas de l'image, du centre vers les côtés.",
         "Niveau égal : le son reste au même niveau d'une vidéo, d'un film ou d'une chanson à l'autre, dans toute l'appli (avec un limiteur, jamais de saturation). Réglable dans Écran voiture > Réglages.",
         "Karaoké : curseur « Voix du chanteur » en bas : baisse seulement la voix, la musique reste (de 100 % à presque rien).",
         "Karaoké : si la version karaoké de la chanson existe (à la même durée), elle est lancée toute seule avec les mêmes paroles. Réglable dans les réglages du karaoké.",
