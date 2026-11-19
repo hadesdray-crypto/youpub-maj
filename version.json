@@ -1,7 +1,11 @@
 {
-    "code": 101,
-    "nom": "1.0.101",
+    "code": 102,
+    "nom": "1.0.102",
     "changements": [
+        "Niveau égal : le son reste au même niveau d'une vidéo, d'un film ou d'une chanson à l'autre, dans toute l'appli (avec un limiteur, jamais de saturation). Réglable dans Écran voiture > Réglages.",
+        "Karaoké : curseur « Voix du chanteur » en bas : baisse seulement la voix, la musique reste (de 100 % à presque rien).",
+        "Karaoké : si la version karaoké de la chanson existe (à la même durée), elle est lancée toute seule avec les mêmes paroles. Réglable dans les réglages du karaoké.",
+        "Karaoké : les paroles se calent toutes seules sur le moment où la voix démarre (sauf si tu les as déjà recalées à la main).",
         "Mises à jour : YouPub installe elle-même ses mises à jour. Celle-ci est la dernière à demander la validation d'Android ; les suivantes s'installent d'un seul toucher sur « Mettre à jour » (Android 12 et plus), puis une notification indique que YouPub est à jour.",
         "La nouvelle version est vue tout de suite après sa publication (avant, GitHub pouvait montrer une ancienne fiche quelques minutes).",
         "Écran voiture : nouveau bouton « Son : voiture / téléphone » en haut. Dès que la voiture est connectée en Bluetooth, le son y part tout seul ; si la voiture n'accepte que les appels en Bluetooth, le son passe quand même par la voie « appels ».",
