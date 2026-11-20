@@ -1,7 +1,9 @@
 {
-  "code": 113,
-  "nom": "1.0.113",
+  "code": 114,
+  "nom": "1.0.114",
   "changements": [
+    "Vidéo bloquée par YouTube : YouPub cherche la même vidéo mise en ligne par une autre chaîne et la lance tout seul.",
+    "Messages d'erreur de lecture en français, sans texte anglais.",
     "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère.",
     "Ordre essayé : son français de la vidéo s'il existe, puis sous-titres français, puis sous-titres traduits par YouTube, puis traduction sur l'appareil (environ 30 Mo téléchargés une seule fois).",
     "Voix française : elle lit les sous-titres et baisse le son d'origine pendant qu'elle parle. « Choisir la voix française… » : touche une voix pour l'entendre, puis « Garder cette voix ».",
@@ -11,11 +13,7 @@
     "Dossiers et sous-dossiers de favoris : créer, renommer, supprimer (appui long) dans Ma bibliothèque",
     "Sur une chaîne en direct : 2 étoiles enregistrent le son, 3 étoiles la vidéo, avec le choix de la qualité et un compteur",
     "Films : 2 ou 3 étoiles proposent chaque fichier disponible avec son poids",
-    "Nouvelle disposition « Simple » (Réglages > Disposition de l'appli) : accueil à grosses tuiles avec boutons bijoux, grande recherche à la voix ou au clavier, et « Ma bibliothèque » (favoris, sans réseau, historique, plus tard).",
-    "Réglages : la qualité du son et le niveau égal sont aussi dans le menu Réglages principal.",
-    "Karaoké : bouton « Version : originale / karaoké » : la chanson passe à la version sans voix (ou revient) au même moment, et les paroles se recalent toutes seules en comparant la musique des deux versions.",
-    "Karaoké : bouton « Paroles : affichées / masquées ». Si la version karaoké a déjà ses paroles à l'image, celles de l'appli se masquent toutes seules.",
-    "Karaoké depuis n'importe quelle vidéo : nouveau bouton « Karaoké » dans le lecteur vidéo, la chanson continue et les paroles s'affichent en grand."
+    "Nouvelle disposition « Simple » (Réglages > Disposition de l'appli) : accueil à grosses tuiles avec boutons bijoux, grande recherche à la voix ou au clavier, et « Ma bibliothèque » (favoris, sans réseau, historique, plus tard)."
   ],
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
