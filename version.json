@@ -1,7 +1,10 @@
 {
-  "code": 116,
-  "nom": "1.0.116",
+  "code": 117,
+  "nom": "1.0.117",
   "changements": [
+    "Nouveau bijou globe sur l'image (à côté des étoiles) et dans l'écran voiture : il ouvre une seule fenêtre pour tout choisir : pas de traduction, sous-titres, sous-titres et voix, voix seule ; puis d'où viennent les sous-titres (automatique, chaque piste de la vidéo, paroles de la chanson) ; puis les réglages.",
+    "Le globe s'allume quand une traduction est en cours.",
+    "Mises à jour : YouPub se déclare propriétaire de ses mises à jour (Android 14 et plus) pour ne plus avoir à valider, et note dans son journal la raison si Android redemande.",
     "Traduire : nouveau choix « Voix française seule (comme un reportage) » : le son d'origine baisse et une voix française dit la traduction, sans sous-titres à l'image.",
     "Chansons sans sous-titres : YouPub cherche les paroles minutées de la chanson et les affiche traduites en français en bas de l'image.",
     "Mises à jour plus solides : barre de chargement avec les Mo reçus, reprise là où ça a coupé (jusqu'à 8 fois, 3 adresses), bouton Réessayer.",
@@ -11,10 +14,7 @@
     "Traduction : phrases entières au lieu de morceaux ; le français arrive d'abord là où tu regardes, même après un saut dans la vidéo ; une phrase pas encore traduite s'affiche en gris.",
     "Vidéos mélangées (cours de langue) : les phrases déjà en français ne sont plus traduites.",
     "Traduction aussi dans l'écran voiture.",
-    "Place : le fichier de mise à jour est effacé après l'installation ; les traducteurs pas servis depuis 14 jours sont effacés ; nouveau Réglages > Place prise par YouPub.",
-    "Vidéo bloquée par YouTube : YouPub cherche la même vidéo mise en ligne par une autre chaîne et la lance tout seul.",
-    "Messages d'erreur de lecture en français, sans texte anglais.",
-    "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère."
+    "Place : le fichier de mise à jour est effacé après l'installation ; les traducteurs pas servis depuis 14 jours sont effacés ; nouveau Réglages > Place prise par YouPub."
   ],
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
