@@ -1,7 +1,14 @@
 {
-  "code": 114,
-  "nom": "1.0.114",
+  "code": 115,
+  "nom": "1.0.115",
   "changements": [
+    "Étoiles (favori, son, vidéo) maintenant en haut à droite de l'image dans le lecteur vidéo : touche la vidéo pour les voir.",
+    "Sous-titres traduits : pastille « Sous-titres : … » sur l'image. Un appui change l'affichage (Français, Français + original, Original, Masqués), un appui long ouvre les réglages.",
+    "Réglages des sous-titres : taille, position en haut ou en bas, fond, couleur, plus tôt ou plus tard, voix française. Aussi dans Traduire.",
+    "Traduction : phrases entières au lieu de morceaux ; le français arrive d'abord là où tu regardes, même après un saut dans la vidéo ; une phrase pas encore traduite s'affiche en gris.",
+    "Vidéos mélangées (cours de langue) : les phrases déjà en français ne sont plus traduites.",
+    "Traduction aussi dans l'écran voiture.",
+    "Place : le fichier de mise à jour est effacé après l'installation ; les traducteurs pas servis depuis 14 jours sont effacés ; nouveau Réglages > Place prise par YouPub.",
     "Vidéo bloquée par YouTube : YouPub cherche la même vidéo mise en ligne par une autre chaîne et la lance tout seul.",
     "Messages d'erreur de lecture en français, sans texte anglais.",
     "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère.",
@@ -11,9 +18,7 @@
     "Les 3 étoiles dans tous les lecteurs : vidéo, voiture, chaînes en direct, Télés du monde, multi-écran, accueil et console",
     "1 étoile : favori rangé dans le dossier de ton choix (Musique, Films, Chaînes, Sport, Enfants, Vidéos ou les tiens)",
     "Dossiers et sous-dossiers de favoris : créer, renommer, supprimer (appui long) dans Ma bibliothèque",
-    "Sur une chaîne en direct : 2 étoiles enregistrent le son, 3 étoiles la vidéo, avec le choix de la qualité et un compteur",
-    "Films : 2 ou 3 étoiles proposent chaque fichier disponible avec son poids",
-    "Nouvelle disposition « Simple » (Réglages > Disposition de l'appli) : accueil à grosses tuiles avec boutons bijoux, grande recherche à la voix ou au clavier, et « Ma bibliothèque » (favoris, sans réseau, historique, plus tard)."
+    "Sur une chaîne en direct : 2 étoiles enregistrent le son, 3 étoiles la vidéo, avec le choix de la qualité et un compteur"
   ],
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
