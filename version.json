@@ -1,7 +1,11 @@
 {
-  "code": 112,
-  "nom": "1.0.112",
+  "code": 113,
+  "nom": "1.0.113",
   "changements": [
+    "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère.",
+    "Ordre essayé : son français de la vidéo s'il existe, puis sous-titres français, puis sous-titres traduits par YouTube, puis traduction sur l'appareil (environ 30 Mo téléchargés une seule fois).",
+    "Voix française : elle lit les sous-titres et baisse le son d'origine pendant qu'elle parle. « Choisir la voix française… » : touche une voix pour l'entendre, puis « Garder cette voix ».",
+    "Mise à jour plus lourde (environ 43 Mo) à cause du traducteur hors connexion.",
     "Les 3 étoiles dans tous les lecteurs : vidéo, voiture, chaînes en direct, Télés du monde, multi-écran, accueil et console",
     "1 étoile : favori rangé dans le dossier de ton choix (Musique, Films, Chaînes, Sport, Enfants, Vidéos ou les tiens)",
     "Dossiers et sous-dossiers de favoris : créer, renommer, supprimer (appui long) dans Ma bibliothèque",
@@ -11,12 +15,7 @@
     "Réglages : la qualité du son et le niveau égal sont aussi dans le menu Réglages principal.",
     "Karaoké : bouton « Version : originale / karaoké » : la chanson passe à la version sans voix (ou revient) au même moment, et les paroles se recalent toutes seules en comparant la musique des deux versions.",
     "Karaoké : bouton « Paroles : affichées / masquées ». Si la version karaoké a déjà ses paroles à l'image, celles de l'appli se masquent toutes seules.",
-    "Karaoké depuis n'importe quelle vidéo : nouveau bouton « Karaoké » dans le lecteur vidéo, la chanson continue et les paroles s'affichent en grand.",
-    "Réglages : nouvelle ligne « Disposition de l'appli » : Actuelle (par défaut) ou Voiture (l'appli s'ouvre directement sur les gros boutons). La disposition « Simple » arrive ensuite.",
-    "Qualité du son : automatique (toujours la meilleure) par défaut, ou « Moyenne » / « Économie de données ». Réglable dans Écran voiture > Réglages et avec le nouveau bouton « Son » du lecteur vidéo, qui liste aussi toutes les pistes son de la vidéo.",
-    "Son : bouton « Son : auto » en haut de l'écran voiture → menu « Où envoyer le son ? » : automatique (Bluetooth dès qu'il est connecté), ton enceinte, la voiture, un casque ou le haut-parleur, et « Connecter un autre appareil Bluetooth… ».",
-    "Toujours le meilleur son : l'appli prend le son au débit le plus haut disponible.",
-    "Karaoké : une petite boule saute de mot en mot au-dessus des paroles (réglable dans les réglages du karaoké)."
+    "Karaoké depuis n'importe quelle vidéo : nouveau bouton « Karaoké » dans le lecteur vidéo, la chanson continue et les paroles s'affichent en grand."
   ],
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
