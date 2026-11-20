@@ -1,7 +1,10 @@
 {
-  "code": 115,
-  "nom": "1.0.115",
+  "code": 116,
+  "nom": "1.0.116",
   "changements": [
+    "Traduire : nouveau choix « Voix française seule (comme un reportage) » : le son d'origine baisse et une voix française dit la traduction, sans sous-titres à l'image.",
+    "Chansons sans sous-titres : YouPub cherche les paroles minutées de la chanson et les affiche traduites en français en bas de l'image.",
+    "Mises à jour plus solides : barre de chargement avec les Mo reçus, reprise là où ça a coupé (jusqu'à 8 fois, 3 adresses), bouton Réessayer.",
     "Étoiles (favori, son, vidéo) maintenant en haut à droite de l'image dans le lecteur vidéo : touche la vidéo pour les voir.",
     "Sous-titres traduits : pastille « Sous-titres : … » sur l'image. Un appui change l'affichage (Français, Français + original, Original, Masqués), un appui long ouvre les réglages.",
     "Réglages des sous-titres : taille, position en haut ou en bas, fond, couleur, plus tôt ou plus tard, voix française. Aussi dans Traduire.",
@@ -11,14 +14,7 @@
     "Place : le fichier de mise à jour est effacé après l'installation ; les traducteurs pas servis depuis 14 jours sont effacés ; nouveau Réglages > Place prise par YouPub.",
     "Vidéo bloquée par YouTube : YouPub cherche la même vidéo mise en ligne par une autre chaîne et la lance tout seul.",
     "Messages d'erreur de lecture en français, sans texte anglais.",
-    "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère.",
-    "Ordre essayé : son français de la vidéo s'il existe, puis sous-titres français, puis sous-titres traduits par YouTube, puis traduction sur l'appareil (environ 30 Mo téléchargés une seule fois).",
-    "Voix française : elle lit les sous-titres et baisse le son d'origine pendant qu'elle parle. « Choisir la voix française… » : touche une voix pour l'entendre, puis « Garder cette voix ».",
-    "Mise à jour plus lourde (environ 43 Mo) à cause du traducteur hors connexion.",
-    "Les 3 étoiles dans tous les lecteurs : vidéo, voiture, chaînes en direct, Télés du monde, multi-écran, accueil et console",
-    "1 étoile : favori rangé dans le dossier de ton choix (Musique, Films, Chaînes, Sport, Enfants, Vidéos ou les tiens)",
-    "Dossiers et sous-dossiers de favoris : créer, renommer, supprimer (appui long) dans Ma bibliothèque",
-    "Sur une chaîne en direct : 2 étoiles enregistrent le son, 3 étoiles la vidéo, avec le choix de la qualité et un compteur"
+    "Traduire en français : nouveau bouton « Traduire » dans le lecteur vidéo (Non / Sous-titres en français / Sous-titres et voix française). Le choix reste actif pour toutes les vidéos en langue étrangère."
   ],
   "apk": "https://raw.githubusercontent.com/hadesdray-crypto/youpub-maj/main/YouPub.apk"
 }
