@@ -1,0 +1,40 @@
+name: Test flux FIFA+
+on:
+  push:
+    branches: [ test-flux-fifa ]
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test-flux-fifa
+      - name: Tester
+        run: |
+          set +e
+          out=resultat.txt; : > $out
+          t() { name="$1"; url="$2"; ua="$3"
+            m=$(curl -sL -m 20 -A "$ua" "$url" -w '\n%{url_effective}'); eff=$(echo "$m"|tail -1); body=$(echo "$m"|sed '$d')
+            if ! echo "$body" | grep -q '#EXTM3U'; then echo "$name | ECHEC liste | $(echo "$body"|head -c 120|tr '\n' ' ')" >> $out; return; fi
+            v=$(echo "$body" | grep -v '^#' | grep -v '^$' | head -1)
+            case "$v" in http*) vu="$v";; /*) vu="$(echo $eff|cut -d/ -f1-3)$v";; *) vu="$(dirname "${eff%%\?*}")/$v";; esac
+            m2=$(curl -sL -m 20 -A "$ua" "$vu" -w '\n%{url_effective}'); eff2=$(echo "$m2"|tail -1); b2=$(echo "$m2"|sed '$d')
+            if echo "$b2" | grep -q '#EXTINF'; then s=$(echo "$b2" | grep -v '^#' | grep -v '^$' | tail -1)
+              case "$s" in http*) su="$s";; /*) su="$(echo $eff2|cut -d/ -f1-3)$s";; *) su="$(dirname "${eff2%%\?*}")/$s";; esac
+            else su=""; fi
+            n=0; [ -n "$su" ] && n=$(curl -sL -m 25 -A "$ua" "$su" -o seg.bin -w '%{size_download}')
+            echo "$name | liste OK | segment ${n} octets" >> $out; }
+          t "Pluto FR FIFA+" "https://jmp2.uk/plu-660c2a2d2433010008df7e92.m3u8" "okhttp/4.9.0"
+          t "Samsung FR FIFA+" "https://jmp2.uk/stvp-FRBA3300037Y7" "okhttp/4.12.0"
+          t "Pluto CA FIFA+" "https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8" "okhttp/4.9.0"
+          t "Pluto GB FIFA+" "https://jmp2.uk/plu-63d91d2560bc8f0008a225e4.m3u8" "okhttp/4.9.0"
+          t "Samsung US FIFA+" "https://jmp2.uk/stvp-USBD12000255B" "okhttp/4.12.0"
+          t "Samsung GB FIFA+" "https://jmp2.uk/stvp-GBBD1100008YW" "okhttp/4.12.0"
+          t "Samsung GB FIFA+ Women" "https://jmp2.uk/stvp-GB3800009F0" "okhttp/4.12.0"
+          for s in PlutoTV SamsungTVPlus; do echo "liste $s : $(curl -s -m 20 -o /dev/null -w '%{http_code}' https://i.mjh.nz/$s/.channels.json.gz)" >> $out; done
+          echo "IP pays : $(curl -s -m 10 https://ipinfo.io/country)" >> $out
+          cat $out
+          git config user.name "test"; git config user.email "test@example.com"
+          git add $out; git commit -qm "resultat test flux"; git push -q
