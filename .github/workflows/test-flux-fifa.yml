@@ -27,12 +27,12 @@ jobs:
             n=0; [ -n "$su" ] && n=$(curl -sL -m 25 -A "$ua" "$su" -o seg.bin -w '%{size_download}')
             echo "$name | liste OK | segment ${n} octets" >> $out; }
           t "Pluto FR FIFA+" "https://jmp2.uk/plu-660c2a2d2433010008df7e92.m3u8" "okhttp/4.9.0"
-          t "Samsung FR FIFA+" "https://jmp2.uk/stvp-FRBA3300037Y7" "okhttp/4.12.0"
+          t "Samsung FR FIFA+" "https://jmp2.uk/stvp-FRBA3300037Y7" "okhttp/4.9.0"
           t "Pluto CA FIFA+" "https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8" "okhttp/4.9.0"
           t "Pluto GB FIFA+" "https://jmp2.uk/plu-63d91d2560bc8f0008a225e4.m3u8" "okhttp/4.9.0"
-          t "Samsung US FIFA+" "https://jmp2.uk/stvp-USBD12000255B" "okhttp/4.12.0"
-          t "Samsung GB FIFA+" "https://jmp2.uk/stvp-GBBD1100008YW" "okhttp/4.12.0"
-          t "Samsung GB FIFA+ Women" "https://jmp2.uk/stvp-GB3800009F0" "okhttp/4.12.0"
+          t "Samsung US FIFA+" "https://jmp2.uk/stvp-USBD12000255B" "okhttp/4.9.0"
+          t "Samsung GB FIFA+" "https://jmp2.uk/stvp-GBBD1100008YW" "okhttp/4.9.0"
+          t "Samsung GB FIFA+ Women" "https://jmp2.uk/stvp-GB3800009F0" "okhttp/4.9.0"
           for s in PlutoTV SamsungTVPlus; do echo "liste $s : $(curl -s -m 20 -o /dev/null -w '%{http_code}' https://i.mjh.nz/$s/.channels.json.gz)" >> $out; done
           echo "IP pays : $(curl -s -m 10 https://ipinfo.io/country)" >> $out
           cat $out
