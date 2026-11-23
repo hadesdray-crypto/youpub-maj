@@ -1,0 +1,10 @@
+Pluto FR FIFA+ | liste OK | segment 394432 octets
+Samsung FR FIFA+ | liste OK | segment 761212 octets
+Pluto CA FIFA+ | liste OK | segment 391424 octets
+Pluto GB FIFA+ | liste OK | segment 385408 octets
+Samsung US FIFA+ | liste OK | segment 791480 octets
+Samsung GB FIFA+ | liste OK | segment 619648 octets
+Samsung GB FIFA+ Women | liste OK | segment 182736 octets
+liste PlutoTV : 302
+liste SamsungTVPlus : 302
+IP pays : US
